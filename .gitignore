@@ -1,1 +1,7 @@
-*gif
+imagenes/*.png
+imagenes/*.jpg
+video/*.mp4
+*.wmv
+*.amv
+*.jpg
+*.png
