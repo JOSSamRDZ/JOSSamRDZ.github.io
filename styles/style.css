@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+/* Contenedor principal del header */
+.header-container{
+    
+    display: flex;
+    flex-direction: baseline ;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    background-color: #0954d3;
+}
+
+/* Bloque Figure */
+.container-figure{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border:   #a53922  solid .3rem; 
+    border-radius: .3rem;
+    left: 1rem;
+    color: white;
+    font-size: 1.4rem;
+}
+.container-figure__image{
+    width: 7rem;
+    height: 5rem;
+    
+}
+/* Bloque formulario */
+.container-form{
+    width: 16rem;
+    height: 2rem;
+    position: relative;
+    right: 5rem;
+    color:black;
+    
+    background-color:white;
+    order: 3;
+}
+.container-form__data{
+    
+
+}
+
+
+/* Bloque navegación */
+.container-nav{
+
+position: relative ;
+left: 3rem;
+
+}
+
+.cntainer-nav__list{
+   
+    flex-wrap: wrap;
+    list-style: none;
+      
+}
+.container-nav__button{
+  
+    font-size: 1.9rem;
+    display: inline-block;
+    margin-left: 1.5rem;
+    height: 1.5rem;
+    
+}
+.container-nav__link{
+    text-decoration: none;
+    color: #c2ccd1;
+}
+
+/*  Bloque de cuenta */
+
+.user-date{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 10rem;
+}
+
+.user-date ul{
+    
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.user-date__button{
+    position: relative;
+    left: 30rem;
+    
+    width: 5rem;
+    font-size: 2rem;
+    
+}
+
+
+.user-date__link{
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+
+}
+#user{
+    font-size: 2.5rem;
+}
+/* Contenedor principal main */
+
+.main-container{
+ display: flex;
+ align-items: stretch;
+}
+
+
+/* Side-bar */
+
+.side-bar {
+    color: white;
+    display: flex;
+    position: relative;
+    align-items: baseline;
+    width: 30rem;
+    height: 49rem;
+    flex-direction: column;
+    border: gray solid .01rem;
+    background-color: #2f2934;
+}
+
+/* Side bar pptions */
+.side-bar__options{
+    margin-top: 4rem ;
+    margin-left: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+    order: 3;
+}   
+.side-bar__button{
+    position: relative;
+    left: .8rem;
+    background-color: #238636;
+    text-align: center;
+    width: 7.5rem;
+    height: 2.6rem;
+    font-size: 1.5rem;
+   text-decoration: none;
+    order: 4;
+    color: #f7fedf;
+    border-radius: .5rem;
+    
+}
+
+.side-bar p{
+    position: relative;
+    top: .3rem;
+}
+
+/* side-bar text */
+
+.side-bar__parrafo1{
+   
+    font-size: 2rem;
+    border-radius: .6rem;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    margin-bottom: 4rem;
+}
+
+/* Side-bar reposirotios activos */
+.bar-list{
+    width: 29.8rem;
+    
+    
+
+}
+
+.bar-list__repository{
+    position: relative;
+    left: .5rem;
+    list-style: none;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    
+}
+
+.bar-list__repository--link{
+    position: relative;
+    left: .6rem;
+    
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    
+}
+
+/* Estilos del footer */
+
+.footer-container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    background-color: #0954d3;
+}
+
+.footer-figure{
+    position: relative;
+    right: 5rem;
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer-figure img{
+    
+    width: 4rem;
+    height: 3rem;
+}
