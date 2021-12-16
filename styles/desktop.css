@@ -1,0 +1,51 @@
+.header-container{
+    width: 100vw;
+   height: 10vh;
+   justify-content: start;
+   align-items: center;
+}
+.header-container .page-icon{
+   position: relative;
+  
+   
+   
+}
+.page-icon__text{
+    font-size: 1.59rem;
+}
+.main-container{
+    flex-direction: row;
+    height: 80vh;
+
+   
+}
+
+.main-section div{
+    width: 70vw;
+}
+.card-proyect{
+    width: 80vw;
+}
+.side-bar{
+    width: 20vw;
+   height: 80vh;
+    
+}
+
+.main-section{
+    
+    width: 85vw;
+    order: 2;
+    
+}
+
+.footer-container{
+    width: 10vw;
+    height: 10vh;
+    
+   
+}
+
+.user-container{
+    width: 10vw;
+}
